@@ -168,7 +168,7 @@ def open_dashboard(role):
 
     # TABLE
     table_frame = tk.Frame(main)
-    table_frame.place(x=10, y=380, width=1150, height=250)
+    table_frame.place(x=10, y=380, width=1160, height=250)
 
     global table
     columns = ("Patient Name", "Ref No", "Address", "Phone No", "Issue Date", "Exp Date", "Complaint", "Patient ID", "Gender")
