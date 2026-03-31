@@ -162,7 +162,7 @@ def open_dashboard(role):
     table_frame.place(x=10, y=410, width=1170, height=250)
     
     global table
-    columns = ("Name", "ID", "Address", "Phone", "Adm Date", "Dis Date", "Gender", "Doctor", "Diagnosis")
+    columns = ("Name", "ID", "Address", "Phone", "Admission Date", "Discharge Date", "Gender", "Doctor", "Diagnosis")
     table = ttk.Treeview(table_frame, columns=columns, show="headings")
     for col in columns:
         table.heading(col, text=col)
