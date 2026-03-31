@@ -154,7 +154,7 @@ def open_dashboard(role):
     tk.Button(btn_frame, text="Update Record", width=12, command=update_record).grid(row=0, column=1, padx=5)
     tk.Button(btn_frame, text="Delete Record", width=12, command=delete_record).grid(row=0, column=2, padx=5)
     tk.Button(btn_frame, text="Clear Fields", width=12, command=clear).grid(row=0, column=3, padx=5)
-    tk.Button(btn_frame, text="Gen Prescription", width=15, bg="lightgreen", command=generate_prescription).grid(row=0, column=4, padx=5)
+    tk.Button(btn_frame, text="Get Prescription", width=15, bg="lightgreen", command=generate_prescription).grid(row=0, column=4, padx=5)
     tk.Button(btn_frame, text="Logout", width=12, bg="orange", command=lambda: logout(dash)).grid(row=0, column=5, padx=5)
 
     # TABLE SECTION
